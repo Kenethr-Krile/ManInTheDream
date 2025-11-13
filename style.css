@@ -1,0 +1,52 @@
+
+*{
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+    font-family: "Mystery Quest", system-ui;
+}
+.image{
+    border:20px whitesmoke solid;
+    border-left: 10px solid whitesmoke;
+    border-right: 10px solid whitesmoke;
+}
+.image2{
+    border:20px whitesmoke solid;
+    border-left: 10px solid whitesmoke;
+    border-right: 10px solid whitesmoke;
+    display: none;
+}
+.imagediv:hover .image{
+    display: none;
+}
+.imagediv:hover .image2{
+    display:inline-block;
+}
+.imagediv{
+    background-color: aliceblue;
+    display: inline-block;
+}
+
+
+a{
+    background-color: whitesmoke;
+    color: black;
+    margin: 0;
+    padding: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    
+}
+a:hover{
+    background-color: red;
+    color: blue;
+    border-right: 0px;
+    border-bottom: 0px;
+    
+    
+}
+p{
+    margin-bottom: 80px;
+  
+}
+
